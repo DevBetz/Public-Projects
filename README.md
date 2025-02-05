@@ -21,7 +21,7 @@ Best wishes,
 - Developed as part of my learning journey with OOP principles.
 - This commit includes interactive games designed to showcase my ability to structure programs using classes and objects.
 
-### **2. Classic Games such as FizzBuzz, Pong, Snake, and Asteroids**
+### **2. Classic Games such as FizzBuzz, Pong, Snake, BlackJack, and Asteroids**
 
 - A classic programming challenge implemented in Python.
 - Highlights my understanding of loops, conditionals, and efficient coding practices.
