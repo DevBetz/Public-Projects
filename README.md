@@ -40,7 +40,7 @@ Best wishes,
 
 ## 🌟 Updates 
 
-**Latest Update (2/4/25):**
+**Latest Update (2/5/25):**
 
 - Added Functions and Conditional Statement Projects:
     - FizzBuzz
@@ -48,18 +48,18 @@ Best wishes,
     - Experimental password generator apps.
 
 
-- Added Coffee Projects:
+- Removed Coffee Projects:
     - Coffee.py
     - Coffee OOP
 
 
- - Added GUI Building Porjects with Tkinter:
+ - Removed unfinshed GUI Building Porjects in Tkinter folder:
     - Tkinter Projects Folder
     - MileToKilometerConverter.py
     - FlowChartBuilder(v).py
 
 
-- Added TrueFalseGame:
+- Added TrueFalseGame and 50 States Game:
     - Data.py
     - Main.py
     - Question_Model.py
@@ -72,7 +72,7 @@ Best wishes,
     - Boot.dev Repo
 
 
-- Added Docker Projects:
+- Added Docker Projects to separate repo:
     - Docker Repo
     - Dockerfile
 
