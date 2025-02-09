@@ -40,7 +40,7 @@ Best wishes,
 
 ## 🌟 Updates 
 
-**Latest Update (2/8/25):**
+**Latest Update (2/9/25):**
 
 - Added Functions and Conditional Statement Projects:
     - FizzBuzz
