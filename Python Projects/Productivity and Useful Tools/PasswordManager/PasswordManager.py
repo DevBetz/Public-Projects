@@ -8,9 +8,9 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+', '-', '?', '@', '^', '_', '=', '{', '}', '[', ']', '<','>', '.', '~', '/']
 
-nr_letters = 10
-nr_symbols = 5
-nr_numbers = 5
+nr_letters = random.randint(8, 10)
+nr_symbols = random.randint(3, 5)
+nr_numbers = random.randint(5, 8)
 
 
 def GeneratePassword():
