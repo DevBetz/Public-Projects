@@ -1,6 +1,8 @@
 #imports
 from tkinter import *
+from tkinter import messagebox
 import random
+import pyperclip
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 # Constant Vairables:
@@ -24,6 +26,19 @@ def GeneratePassword():
 
     for char in range(1, nr_numbers + 1):
       password_list += random.choice(numbers)
+
+# alternative method for password generation
+    # password_letters = [random.choice(letters) for _ in range(random.randint(8, 10)]
+    # password_symbols = [random.choice(symbols) for _ in range(random.randint(3, 5)]
+    # password_numbers = [random.choice(numbers) for _ in range(random.randint(5, 8)]
+
+    # password_list = password_letters + password_symbols + password_numbers
+    # shuffle(password_list)
+
+    # password = "".join(password_list)
+    # password_entry.insert(0, password)
+
+
     #shuffle order
     random.shuffle(password_list)
     password = ""
@@ -31,6 +46,8 @@ def GeneratePassword():
       password += char
     password_entry.delete(0, END)
     password_entry.insert(END, string=f"{password}")
+    # copy to clipboard:
+    pyperclip.copy(password)
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
@@ -42,6 +59,7 @@ def Add():
 #open and (edited out reading the file after the appending):
   f = open("PasswordManagerList.txt", "r")
 #  print(f.read())
+  message = messagebox.showinfo(title="Password Added", message="Your password list has been successfully updated!")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -99,3 +117,4 @@ password_label.grid(column=0, row=3)
 
 
 window.mainloop()
+
