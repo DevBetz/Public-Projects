@@ -143,31 +143,31 @@ https://docs.docker.com/get-started/introduction/build-and-push-first-image/
 
 ## Working List of commonly used commands:
 
-# this will show the command that was used to create each layer within the image:
+This will show the command that was used to create each layer within the image:
 `docker image history`
 
-# see the layers you created:
+See the layers you created:
 `docker image history getting-started`
 
-# runs a nginx web server on port 80 in detatched mode (meaning you can do other stuff with the terminal and not just have to open a new tab for that to run)
+Runs a nginx web server on port 80 in detatched mode (meaning you can do other stuff with the terminal and not just have to open a new tab for that to run)
 `docker run -p 80:80 -d nginx`
 
-# to specify a name:
+To specify a name:
 `docker run -p 80:80 -d --name Container_Name_Here nginx`
 
-# stop container:
+Stop container:
 `docker stop container_name_here`
 
-# remove all stopped containers:
+Remove all stopped containers:
 `docker container prune`
 
 
-# automatically remove stopped containers once they are stopped.
+Automatically remove stopped containers once they are stopped.
 `docker run -p 80:80 -d --rm nginx`
 
 
 
-# leaving this here to make copying easier:
+Leaving this here to make copying easier:
 `docker run -p 80:80 nginx`
 
 
@@ -202,9 +202,6 @@ debugging:
 # run this command for debugging. -it means interactive and tty gives us a nicer cli interface and allows us to keep interacting with it:
 
 docker exec -it <container_ID_here> /bin/bash
-
-
-
 
 
 
