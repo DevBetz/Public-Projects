@@ -143,41 +143,34 @@ https://docs.docker.com/get-started/introduction/build-and-push-first-image/
 
 ## Working List of commonly used commands:
 
-```
 # this will show the command that was used to create each layer within the image:
-docker image history
+`docker image history`
 
 # see the layers you created:
-docker image history getting-started
+`docker image history getting-started`
 
 # runs a nginx web server on port 80 in detatched mode (meaning you can do other stuff with the terminal and not just have to open a new tab for that to run)
-docker run -p 80:80 -d nginx
+`docker run -p 80:80 -d nginx`
 
 # to specify a name:
-docker run -p 80:80 -d --name Container_Name_Here nginx
+`docker run -p 80:80 -d --name Container_Name_Here nginx`
 
 # stop container:
-docker stop container_name_here
+`docker stop container_name_here`
 
 # remove all stopped containers:
-docker container prune
+`docker container prune`
 
 
 # automatically remove stopped containers once they are stopped.
-docker run -p 80:80 -d --rm nginx
-
-
-
-
-
+`docker run -p 80:80 -d --rm nginx`
 
 
 
 # leaving this here to make copying easier:
-docker run -p 80:80 nginx
+`docker run -p 80:80 nginx`
 
 
-```
 
 can refer to a container by its ID or by name.
 
