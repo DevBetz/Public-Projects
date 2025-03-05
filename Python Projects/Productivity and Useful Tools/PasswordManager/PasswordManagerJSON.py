@@ -69,6 +69,28 @@ def Add():
        password_entry.delete(0, END)
        messagebox.showinfo(title="Password Added", message="Your password has been successfully added!")
 
+
+# ---------------------------- Search ------------------------------- #
+def Search():
+    website = website_entry.get()
+    try:
+        with open("data.json", "r") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="File Not Found!", message=f"No data found")
+    else:
+        if website in data:
+                email = data[website]["email"]
+                password = data[website]["password"]
+                messagebox.showinfo(title=website, message=f"Email: {email}\nPassword: {password}")
+        elif len(website) == 0:
+            messagebox.showinfo(title="Error!", message="Please make sure all required fields are filled out")
+        else:
+            messagebox.showinfo(title="Entry Not Found!", message=f"No entry fonud for {website}")
+        
+
+
+
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
@@ -91,6 +113,10 @@ Gen_Pass.grid(column=2, row=3)
 Add_Button = Button(text="Add", command=Add)
 Add_Button.grid(column=1, row=6)
 Add_Button.config(padx=5, pady=2)
+
+# Search Button:
+Search_Button = Button(text="Search", command=Search)
+Search_Button.grid(column=2, row=1)
 
 # Text Box 1 for website
 website_entry = Entry(width=30)
@@ -118,3 +144,4 @@ password_label = Label(text="Password:")
 password_label.grid(column=0, row=3)
 
 window.mainloop()
+
