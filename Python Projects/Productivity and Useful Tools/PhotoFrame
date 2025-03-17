@@ -1,0 +1,26 @@
+from tkinter import *
+from PIL import Image, ImageTk
+import os
+import random
+
+
+IMAGE_FOLDER = "Photos"
+
+def load_random_image():
+    images = [f for f in os.listdir(IMAGE_FOLDER) if f.endswith(('.png', '.jpg', '.jpeg'))]
+    if images:
+        img_path = os.path.join(IMAGE_FOLDER, random.choice(images))
+        img = Image.open(img_path).resize((800, 480))  # Resize to match the screen
+        photo = ImageTk.PhotoImage(img)
+        label.config(image=photo)
+        label.image = photo  # Keep reference
+        window.after(5000, load_random_image)  # Change every 5 seconds
+
+window = Tk()
+window.title("Photo Phrame Pho Phree!")
+# window.attributes('-fullscreen', True)  # Fullscreen mode
+window.config(padx=50, pady=50, bg="black")
+label = Label()
+label.pack()
+load_random_image()
+window.mainloop()
