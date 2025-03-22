@@ -1,115 +1,130 @@
-# Public-Projects
+# **Public-Projects**
 
-### Authors Note: ###
-Welcome to my Python Projects Portfolio! This repository features projects I've created to hone my skills in **Object-Oriented Programming (OOP)** and explore various aspects of Python development. Each project demonstrates my ability to use classes effectively and apply programming concepts to practical problems. While some of the projects I've worked in the beginning of my Python/ Programming education may be considered fairly basic and simple, I believe it's important to remember where we started and I keep it committed here as a reminder to look back at the progress I've made and to continue learning. Several projects also serve as a useful refference guide for various modules.
+## **Author’s Note**
 
-In addition to Python I've recently start experimenting with hosting applications in container and will continue to add the finished projects in the Docker directory.
+Welcome to my Python Projects Portfolio. This repository showcases projects that have helped me refine my **Object-Oriented Programming (OOP)** skills and explore various aspects of Python development. These projects demonstrate practical applications of programming concepts, with a focus on problem-solving.
 
-When you're ready, go ahead and fork some of the desired files/ applications for testing; note that some projects located in their own folders will need all files contained in the folder to work properly. For example, Pong has mutliple components each separate by its own file (Scoreboard.py will now workwithout main.py, etc.,).
+Early projects remain committed to this repository as a reference point for progress and learning. Some serve as useful guides for specific modules and implementations.
 
-Enjoy and feel free to reach out if you have any questions!
-Thank you!
+Lately, I’ve been experimenting with **containerized applications** and will continue adding finished projects to the **Docker directory**.
 
-Best wishes, 
+Fork and test any project, but note that some require multiple files to function properly (e.g., Pong’s `Scoreboard.py` and `main.py`).
 
--- DevBetz
+Feel free to reach out with any questions.
 
----
-
-## 🚀 Projects Included
-
-### **1. Classic Games such as FizzBuzz, Pong, Snake, Blackjack, and Asteroids**
-
-- Classic programming challenges implemented in Python.
-
-### **2. Productivity Projects**
-
-- From Pomadora Productivity Timers, Mail Merge, Flash Cards, and other UI applications.
-
-### **3. Security Related Projects such Password Generators, File Encryption, Password Manager**
-
-- Experimental password generator apps leveraging (pseudo-)random functions.
-- Exploring string manipulation and randomization techniques for practical applications.
-
-### Artificial Intelligence Related Projects with tools such as Fabric, Open-AI, and more.
-- Experimentation with various prompts and models.
+— **DevBetz**
 
 ---
 
-## 🌟 Updates 
+## **Projects Included**
 
-**Latest Update (3/21/25):**
+### **Classic Games**
 
-- Updated Functionality to older, conditional statement Projects:
+- FizzBuzz, Pong, Snake, Blackjack, and Asteroids.
+    
+
+### **Productivity Applications**
+
+- Pomodoro Timer, Mail Merge, Flash Cards, and other UI-based tools.
+    
+
+### **Security & Encryption**
+
+- Password Generators, File Encryption, and a Password Manager.
+    
+
+### **AI & Automation**
+
+- Projects using OpenAI, Fabric, and scripting for automation.
+    
+
+### **Architecture & Diagram Tools**
+
+- Architecture Diagram Builder for system design visualization.
+    
+
+---
+
+## **Latest Updates (March 21, 2025)**
+
+### Code Improvements
+
+- Refactored and optimized older projects:
+    
     - FizzBuzz
-    - High_Lower Project
-    - Experimental password generator apps.
+        
+    - High_Lower Game
+        
+    - Experimental Password Generators
+        
 
+### Project Cleanup
 
- - Removed unfinshed UI Building Projects in Tkinter folder:
-    - Tkinter Projects Folder
-    - MileToKilometerConverter.py
-    - FlowChartBuilder(v).py
+- Removed unfinished Tkinter UI projects.
+    
 
+### New Additions
 
-- Added TrueFalseGame and 50 States Game:
-    - Data.py
-    - Main.py
-    - Question_Model.py
-    - Quiz_Brain.py
+- **True/False Game & 50 States Game**
+    
+- **Boot.dev Projects:** Asteroids, Book Bot, Boot.dev Repo.
+    
+- **Docker Projects:** Now organized in a separate directory.
+    
+- **Architecture Diagram Builder:** Core scripts and documentation.
+    
+- **Productivity Tools:**
+    
+    - Flash Card app for language learning (customizable datasets).
+        
+    - **PhotoFrame:** A local, subscription-free digital photo frame app.
+        
 
-
-- Added Boot.dev Projects:
-    - Asteroids
-    - Book Bot
-    - Boot.dev Repo
-
-
-- Added Docker Projects to separate directory:
-    - Docker Repo
-    - Dockerfile
-    - Cheatsheet
-
-
-- Architechture Diagram Builder:
-    - Readme.md
-    - main.py
-    - Alt.py
-
-
-- Productivity Applications:
-    - Flash Cards for learning French (can be modfied with additional data sets)
-    - PhotoFrame - I didn't want to spend money on subscription for an applicatoin that display photos... so I built one myself.
-    - More updates to come soon! See Roadmap for upcoming projects.
+More updates to come. See the **Roadmap** for future plans.
 
 ---
 
-## 📈 Roadmap
+## **Roadmap**
 
-I plan to continually expand this portfolio by:
+Plans for expansion include:
 
-- Adding more games and utility projects. I have additional ideas for Cat Boardgames, Survivor, and D&D story-telling/ deck building style games.
-- Exploring advanced Python libraries and frameworks.
-- Integrating data analysis, web scraping, and GUI development projects.
-- Scripting using Powershell, Bash, and Python.
+- Developing new board game-inspired applications (D&D storytelling, deck-building, and strategy games).
+    
+- Building advanced Python-based automation and security tools.
+    
+- Expanding into data analysis, web scraping, and GUI development.
+    
+- Increasing scripting projects in PowerShell, Bash, and Python.
+    
 
 ---
 
-## 🛠️ Tools & Environment
+## **Tools & Environment**
 
 - **Languages:** Python 3
-- **IDEs Used:** PyCharm (initial development), Visual Studio Code (updated versions)
+    
+- **Frameworks & Libraries:** Tkinter, OpenAI, Fabric, Cryptography, Docker
+    
+- **Development Tools:** PyCharm, Visual Studio Code
+    
+- **Hosting & Deployment:** Docker, Local Machine
+    
 
 ---
 
-## 📚 About Me
+## **About Me**
 
-I'm a passionate Python developer with a focus on Cybersecurity; I intend to use this repository as a way of showcasing my growth and as a means of refference. I'm a book nerd and enjoy reading/ learning, playing boardgames, and figuring out how to make things work. This portfolio reflects my commitment to learning, experimenting, and solving real-world challenges through code and new technologies. I do not consider myself and expert, but rather a practitioner that is consistently learning.
+I’m a Python developer with an interest in **cybersecurity, automation, and problem-solving**. This repository is both a portfolio and a reference for continuous learning.
+
+Outside of coding, I enjoy reading, playing board games, and experimenting with new technology. I focus on **practical development** rather than theory alone, and I believe in constant improvement through hands-on experience.
 
 ---
 
-## 💡 Suggestions or Collaboration?
+## **Collaboration & Feedback**
 
-Feel free to reach out if you have feedback or would like to collaborate on a project! 😊
+If you have suggestions, feedback, or want to collaborate, feel free to reach out. Open to discussing new projects and ideas.
+
+
+
 
 
