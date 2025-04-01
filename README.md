@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (April 1, 2025)**
+## **Latest Updates (April 1st, 2025)**
 
 ### Code Improvements
 
