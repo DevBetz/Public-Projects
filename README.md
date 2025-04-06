@@ -33,9 +33,9 @@ Feel free to reach out with any questions.
 - Password Generators, File Encryption, and a Password Manager.
     
 
-### **AI & Automation**
+### **API, AI, & Automation**
 
-- Projects using OpenAI, Fabric, and scripting for automation.
+- Projects using OpenAI, Fabric, AI Agent Parser, and scripting for automation.
     
 
 ### **Architecture & Diagram Tools**
@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (April 5, 2025)**
+## **Latest Updates (April 6, 2025)**
 
 ### Code Improvements
 
@@ -71,13 +71,13 @@ Feel free to reach out with any questions.
     
 - **Docker Projects:** Now organized in a separate directory.
     
-- **Architecture Diagram Builder:** Core scripts and documentation.
+- **Quiz App:** Refactored hard coded questions to now dynamically apply quiz questions using API from the Open Trivia DB website.
     
 - **Productivity Tools:**
     
-    - Flash Card app for language learning (customizable datasets).
-        
+    - **Flash Card App** for language learning (customizable datasets).        
     - **PhotoFrame:** A local, subscription-free digital photo frame app.
+    - **Architecture Diagram Builder:** Core scripts and documentation.
         
 
 More updates to come. See the **Roadmap** for future plans.
@@ -107,7 +107,7 @@ Plans for expansion include:
     
 - **Development Tools:** PyCharm, Visual Studio Code
     
-- **Hosting & Deployment:** Docker, Local Machine
+- **Hosting & Deployment:** Docker, Local Machine, Virtual Box, Proxmox
     
 
 ---
