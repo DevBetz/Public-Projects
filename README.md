@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (April 15, 2025)**
+## **Latest Updates (April 16, 2025)**
 
 ### Code Improvements
 
@@ -95,7 +95,10 @@ Plans for expansion include:
 - Expanding into data analysis, web scraping, and GUI development.
     
 - Increasing scripting projects in PowerShell, Bash, and Python.
-    
+  
+- Experimenting with LLMs such as Llama-3, GPT4, Claude, and other architectures
+
+- Considering updates to homelab with Dev Containers, Docker Desktop, Github Codespaces, and GitPod
 
 ---
 
