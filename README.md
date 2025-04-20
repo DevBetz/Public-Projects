@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (April 19, 2025)**
+## **Latest Updates (April 20, 2025)**
 
 ### Code Improvements
 
@@ -99,6 +99,8 @@ Plans for expansion include:
 - Experimenting with LLMs such as Llama-3, GPT4, Claude, and other architectures
 
 - Considering updates to homelab with Dev Containers, Docker Desktop, Github Codespaces, and GitPod
+
+- Securing containerized applications during development, deployment, and runtime.
 
 ---
 
