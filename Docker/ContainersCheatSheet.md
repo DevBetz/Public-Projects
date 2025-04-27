@@ -101,17 +101,10 @@
 
 1. **Use Descriptive Names:** Use the `--name <name>` option with `docker run` to assign a meaningful name to your container.
     
-    bash
-    
-    Copy code
-    
     `docker run --name my-container -d nginx`
     
 2. **Save Docker Commands as Aliases:** Add shortcuts to your shell configuration file for frequently used commands.
-    
-    bash
-    
-    Copy code
+
     
     `alias dps="docker ps -a" alias drm="docker rm $(docker ps -a -q)"`
     
