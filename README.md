@@ -20,7 +20,7 @@ Feel free to reach out with any questions.
 
 ### **Classic Games**
 
-- FizzBuzz, Pong, Snake, Blackjack, and Asteroids.
+- FizzBuzz, Pong, Snake, Blackjack, Farkle and Asteroids.
     
 
 ### **Productivity Applications**
@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (May 18, 2025)**
+## **Latest Updates (May 19, 2025)**
 
 ### Code Improvements
 
