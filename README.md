@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (May 24, 2025)**
+## **Latest Updates (May 25, 2025)**
 
 ### Code Improvements
 
@@ -61,6 +61,7 @@ Feel free to reach out with any questions.
 ### Project Cleanup
 
 - Removed unfinished Tkinter UI projects.
+- Add easier set up and packaging for Architecture Diagram Builder.
     
 
 ### New Additions
