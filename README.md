@@ -45,7 +45,7 @@ Feel free to reach out with any questions.
 
 ---
 
-## **Latest Updates (August 8, 2025)**
+## **Latest Updates (August 9, 2025)**
 
 ### Code Improvements
 
@@ -79,6 +79,7 @@ Feel free to reach out with any questions.
     - **Flash Card App** for language learning (customizable datasets).        
     - **PhotoFrame:** A local, subscription-free digital photo frame app.
     - **Architecture Diagram Builder:** Core scripts and documentation.
+    - **SOC Metrics** Simple script for caluclating Alerts Count, False Postive Rate, Alert Escalation Rate, and Threat Detection Rate.
         
 
 More updates to come. See the **Roadmap** for future plans.
